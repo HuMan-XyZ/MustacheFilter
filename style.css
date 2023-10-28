@@ -1,0 +1,114 @@
+body{
+background-image: url("image.jpg");   
+color: white;
+
+
+}
+
+.btn-primary{
+    font-size: 25px;
+    border: 3px black ridge;
+    color: yellow;
+    }
+
+   marquee{
+    font-size: 20px;
+    border: 2px black ridge 
+   }
+
+   .btn-success{
+    border: 3px black ridge;
+    font-size: 16px;
+
+   }
+
+   .btn-success:hover{
+    background-color: black;
+   }
+
+   
+@keyframes s1{
+    0%{
+        box-shadow: 5px 5px 8.4px  red;
+    }
+
+    10%{
+        box-shadow: 5px 5px 8.4px  ORANGE;
+    }
+
+    20%{
+        box-shadow: 5px 5px 8.4px  yellow;
+    }
+
+    30%{
+        box-shadow: 5px 5px 8.4px  greenyellow;
+    }
+
+    40%{
+        box-shadow: 5px 5px 8.4px  cyan;
+    }
+
+    50%{
+        box-shadow: 5px 5px 8.4px  blue;
+    }
+
+    60%{
+        box-shadow: 5px 5px 8.4px  purple;
+    }
+
+    70%{
+        box-shadow: 5px 5px 8.4px  rgb(169, 23, 72);
+    }
+
+    80%{
+        box-shadow: 5px 5px 8.4px  red;
+
+    }
+    90%{
+        box-shadow: 5px 5px 8.4px  red;
+        
+    }
+    100%{
+        box-shadow: 5px 5px 8.4px  red;
+        
+    }
+
+
+    
+}
+
+canvas{
+    animation-name: s1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes yes{
+
+0%{
+    background-color: blue;
+    color: yellow;
+}
+
+33%{
+    background-color: rgb(255, 13, 0);
+    color: rgb(0, 255, 225);
+}
+
+66%{
+    background-color: rgb(157, 255, 0);
+    color: rgb(0, 34, 255);
+}
+
+100%{
+    background-color: rgb(0, 255, 255);
+    color: rgb(255, 0, 0);
+}
+
+}
+
+.btn-primary{
+    animation-name: yes;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
